@@ -8,7 +8,7 @@ import java.io.InputStream;
  */
 public class BytePacketParser {
     private final InputStream inputStream;
-    private int state = 0; // 0 - wait packet length; 1 - wait data by packet length
+    private byte state = 0; // 0 - wait packet length; 1 - wait data by packet length
     private int len = -1; // if state == 0: -1 else: length of packet
 
     public BytePacketParser(InputStream inputStream) {
