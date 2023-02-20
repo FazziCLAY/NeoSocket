@@ -2,7 +2,7 @@
 Simple Library for network data transmission via packets
 
 # Byte structure
-HEX: [00 00 00 05] [00 00 00 00] [FF]
+HEX: [00 00 00 09] [00 00 00 00] [FF]
 
 DEC: [9] [0] [255]
 
