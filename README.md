@@ -4,7 +4,7 @@ Simple Library for network data transmission via packets
 # Byte structure
 HEX: [00 00 00 05] [00 00 00 00] [FF]
 
-DEC: [5] [0] [255]
+DEC: [9] [0] [255]
 
 * **First** - Length (int: 4 bytes)
 `(Length = 4 + **PacketID**.length + **Data**.length)`
